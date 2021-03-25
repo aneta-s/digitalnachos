@@ -1,6 +1,5 @@
 .logo {
     filter: drop-shadow(0 1px 3px #000);
-	/* vertical-align: middle; */
     margin-left: 30px;
     /* size of the logo */
     padding: 25px 0 0;
@@ -9,7 +8,6 @@
     height: 100px;
     max-width: 100%;
     max-height: 100%;
-/* padding-right: 0; */
 }
 
 @media(max-width:767px) {
@@ -18,8 +16,15 @@
         margin: 0;
         left: 1px;
     }
-
 }
+@media(min-width:768px) {
+  .logo {
+      padding: 25px 0 0;
+      margin-left: 25px;
+      left: 1px;
+  }
+}
+
 .float{
 	position:fixed;
 	width:60px;
