@@ -5625,7 +5625,7 @@ button.close {
     }
 }
 
-#site-border-bottom,
+/* #site-border-bottom,
 #site-border-left,
 #site-border-right,
 #site-border-top {
@@ -5662,7 +5662,7 @@ button.close {
 
 #site-border-bottom {
     bottom: 0
-}
+} */
 
 body {
     padding: 10px;
@@ -5672,7 +5672,8 @@ body {
 body.minimal {
     border: none;
     padding: 0;
-    background-color: #000
+    background-color: #000;
+    overflow-y: hidden;
 }
 
 .hero-full-container {
