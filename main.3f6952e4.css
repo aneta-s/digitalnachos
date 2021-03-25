@@ -13,9 +13,9 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
+/* body {
     margin: 0;
-}
+} */
 
 
 article,
@@ -5625,7 +5625,7 @@ button.close {
     }
 }
 
-/* #site-border-bottom,
+#site-border-bottom,
 #site-border-left,
 #site-border-right,
 #site-border-top {
@@ -5662,7 +5662,7 @@ button.close {
 
 #site-border-bottom {
     bottom: 0
-} */
+}
 
 body {
     padding: 10px;
