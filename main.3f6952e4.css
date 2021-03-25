@@ -5671,7 +5671,8 @@ body {
 
 body.minimal {
     border: none;
-    padding: 0
+    padding: 0;
+    background-color: #000
 }
 
 .hero-full-container {
