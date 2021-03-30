@@ -5625,11 +5625,11 @@ button.close {
     }
 }
 
-/* #site-border-bottom,
+#site-border-bottom,
 #site-border-left,
 #site-border-right,
 #site-border-top {
-    background: #000;
+    background: #FFF;
     position: fixed;
     z-index: 1
 }
@@ -5662,7 +5662,7 @@ button.close {
 
 #site-border-bottom {
     bottom: 0
-} */
+} 
 
 body {
     padding: 10px;
