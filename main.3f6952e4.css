@@ -522,13 +522,13 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 60px
+    font-size: 70px;
 }
 
-  @media screen and (min-width: 380px) {
+@media screen and (min-width: 380px) {
     .h1,
 h1 {
-      font-size: calc(50px + 10 * ((100vw - 380px) / 820));
+      font-size: calc(60px + 10 * ((100vw - 380px) / 820));
     }
   }
   @media screen and (min-width: 1200px) {
@@ -537,6 +537,7 @@ h1 {
       font-size: 70px;
     }
   }
+
 
 .h2,
 h2 {
@@ -5702,6 +5703,7 @@ body.minimal {
             word-break: break-word;
         }
     } */
+
 }
 
 .hero-full-container .hero-full-wrapper {
