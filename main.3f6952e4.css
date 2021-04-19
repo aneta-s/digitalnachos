@@ -525,7 +525,7 @@ h1 {
     font-size: 60px
 }
 
-  @media screen and (min-width: 380px) and (orientation:landscape){
+  @media screen and (min-width: 380px) {
     .h1,
 h1 {
       font-size: calc(50px + 10 * ((100vw - 380px) / 820));
