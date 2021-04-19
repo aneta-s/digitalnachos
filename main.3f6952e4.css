@@ -522,8 +522,21 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 70px
+    font-size: 60px
 }
+
+  @media screen and (min-width: 380px) and (orientation:landscape){
+    .h1,
+h1 {
+      font-size: calc(50px + 10 * ((100vw - 380px) / 820));
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .h1,
+h1 {
+      font-size: 70px;
+    }
+  }
 
 .h2,
 h2 {
@@ -5682,7 +5695,13 @@ body.minimal {
 
 .hero-full-container h1 {
     font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 900
+    font-weight: 900;
+    
+    /* @media only screen and (min-width : 320px) and (orientation:landscape) {
+        #typed {
+            word-break: break-word;
+        }
+    } */
 }
 
 .hero-full-container .hero-full-wrapper {

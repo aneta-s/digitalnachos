@@ -1,8 +1,6 @@
 .logo {
     filter: drop-shadow(0 1px 3px #000);
-    margin-left: 30px;
-    /* size of the logo Top, right, Bottom, left*/
-    padding: 25px 0 0 0;
+    margin: 18px;
     float: left;
     width: 100px;
     height: 100px;
@@ -14,19 +12,25 @@
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
+@media screen and (min-width: 767px)  {
     .logo {
-        padding: 30px;
-        margin: 0;
-        left: 1px;
+      width: 70px;
+      height: 70px;
     }
 }
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media screen and (max-width: 768px)  {
   .logo {
-      padding: 25px 0 0 0 0;
-      margin-left: 25px;
-      left: 1px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 380px) {
+  .logo {
+      width: 50px;
+      height: 50px;
   }
 }
 
