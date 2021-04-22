@@ -520,17 +520,23 @@ h6 small {
     font-size: 75%
 }
 
+/* This is the default case */
 .h1,
 h1 {
     font-size: 70px;
 }
 
-@media screen and (min-width: 380px) {
+/* This overrides the default when the size is less or equal 380px so for sizes 380px+ it is not doing anything. */
+
+@media screen and (max-width: 380px) {
     .h1,
 h1 {
       font-size: calc(60px + 10 * ((100vw - 380px) / 820));
+      word-break: break-word;
     }
   }
+
+  /* Isn't really needed because from 380px+ on it uses the default of 70px */
   @media screen and (min-width: 1200px) {
     .h1,
 h1 {
