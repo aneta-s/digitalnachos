@@ -537,10 +537,11 @@ h1 {
   }
 
   /* Isn't really needed because from 380px+ on it uses the default of 70px */
-  @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 768px) {
     .h1,
 h1 {
-      font-size: 70px;
+      font-size: calc(50px + 20 * ((100vw - 380px) / 388));
+      word-break: break-word;
     }
   }
 
